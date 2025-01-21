@@ -50,7 +50,7 @@ System.out.println("ENter name to Search:");
 //    String nameToCheck = sc.nextLine();
 // System.out.println("Does name '" + nameToCheck.equalsIgnoreCase(nameToCheck) + "' exist? " + studentRecords.containsValue(nameToCheck));
 String nameToCheck = sc.nextLine();
-System.out.println("Does name '" + nameToCheck + "' exist? " + studentRecords.containsValue(nameToCheck));//Smith=smith//false
+System.out.println("Does name '" + nameToCheck + "' exist? " +  studentRecords .containsValue(nameToCheck));//Smith=smith//false
 
 
     
